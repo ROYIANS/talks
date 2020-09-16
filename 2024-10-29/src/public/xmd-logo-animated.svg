@@ -1,0 +1,70 @@
+<svg width="641.554443" height="201.383972" viewBox="0 0 641.554 201.384" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ROYIANS @ vidorra.life</title>
+    <style>
+        @media (prefers-reduced-motion) {
+        path {
+        animation: none !important;
+        stroke-dasharray: unset !important;
+        }
+        }
+
+        @keyframes grow {
+        0% {
+        stroke-dashoffset: 1px;
+        stroke-dasharray: 0 350px;
+        opacity: 0;
+        }
+
+        10% {
+        opacity: 1;
+        transform: translate(0, 1%);
+        }
+
+        20% {
+        transform: translate(0, 0);
+        }
+
+        40% {
+        stroke-dasharray: 350px 0;
+        }
+
+        85% {
+        stroke-dasharray: 350px 0;
+        }
+
+        95%,
+        to {
+        stroke-dasharray: 0 350px;
+        }
+        }
+
+        path {
+        stroke-dashoffset: 1px;
+        stroke-dasharray: 350px 0;
+        animation: grow 10s ease-out forwards infinite;
+        transform-origin: center;
+        stroke: #303030;
+        animation-delay: 0s;
+        }
+
+        @media (prefers-color-scheme:dark) {
+        path {
+        stroke: #fdfdfd;
+        }
+        }
+    </style>
+    <path id="矢量 28" d="M90.33 9.08C92.99 64.91 96.73 177.78 90.33 182.58C83.93 187.38 63.33 171.98 59.33 165.58M34.33 60.58C34.16 80.91 27.23 125.98 0.83 143.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 29" d="M144.33 60.58C148.99 78.25 164.73 118.98 190.33 140.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 30" d="M236.33 23.58L319.83 23.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 30" d="M340.33 23.58L423.83 23.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 31" d="M381.83 1.08L381.83 70.58M277.83 1.08L277.83 35.83L277.83 70.58M277.83 35.83C272.33 45.75 256.93 66.58 239.33 70.58M277.83 35.83C283.49 47.41 300.23 70.58 321.83 70.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 32" d="M269.83 141.58C280.49 136.91 306.03 117.78 314.83 86.58M339.83 69.58C349.12 67.48 357.35 62.04 364 56.06C369.32 51.27 373.64 46.14 376.69 42.09C379.06 38.94 384.36 39.08 386.6 42.33C389.8 46.97 394.53 52.96 400.54 58.14C407.87 64.46 417.12 69.58 427.83 69.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 33" d="M312.83 87.58L366.56 87.58C369.42 87.58 371.71 89.99 371.27 92.82C367.51 117.34 345.31 164.87 278.83 194.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 34" d="M299.83 117.58L337.83 153.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 35" d="M561.33 1.08L539.78 21.69C538.85 22.58 537.61 23.08 536.32 23.08L517.33 23.08L517.33 82.58L517.33 105.08L517.33 122.58C517.33 125.34 519.57 127.58 522.33 127.58L548.08 127.58L578.83 127.58L635.17 127.58C637.99 127.58 640.26 129.91 640.03 132.73C638.21 155.19 629.21 190.92 620.33 197.58C610.73 204.78 605.93 184.88 602.33 178.08M517.33 23.08L602.8 23.08C605.76 23.08 608.07 25.64 607.77 28.58L602.78 78.08C602.52 80.63 600.37 82.58 597.81 82.58L517.33 82.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 36" d="M516.33 55.58L606.33 55.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 37" d="M516.33 106.58L629.33 106.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 38" d="M490.83 145.58C487.7 154.03 483.39 173.24 489.5 186.15C490.24 187.71 491.87 188.58 493.6 188.58L577.33 188.58C583.99 189.25 594.73 182.98 584.33 152.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+    <path id="矢量 39" d="M538.33 127.58L538.33 189.58" stroke="#000000" stroke-opacity="1.000000" stroke-width="3.000000"/>
+</svg>
+
