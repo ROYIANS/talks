@@ -21,12 +21,12 @@ class: pl-40
 glowSeed: 14
 ---
 
-# 圈圈⭕️
+# 交互设计开发规范分享
 
 <div class="leading-10 opacity-80">
-&#x5c71;&#x897f;&#x81f3;&#x7b80;&#x80fd;&#x6e90;&#x79d1;&#x6280;&#x6709;&#x9650;&#x516c;&#x53f8;.<br>
+2024-10-28<br>
 大前端研发组.<br>
-&#x5f20;&#x9896;&#x6377;.<br>
+圈圈⭕️<br>
 </div>
 
 <div my-10 w-min flex="~ gap-1" items-center justify-center>
@@ -44,23 +44,21 @@ glowSeed: 14
 </div>
 
 <!--
-So first, let me introduce myself, my name is Anthony Fu.
+首先我来介绍一下我自己，我是圈圈，from 小梦岛。
 
-[click] And, Hi! My girlfriend Inès draw me this cute avatar and also the illustations you will see later. Thanks to her!
-
-So, my name is Anthon Fu, and...
+[click] 然后，我的个人主页和 GitHub 主页，大家可以通过下面的链接访问。
 -->
 
 ---
 layout: cover
-title: Anthony's Roads to Open Source
+title: 产品设计中的质量保证和落地
 ---
 
 <h1 flex="~ col">
 <div text-2xl origin-top-left transition duration-500 :class="$clicks <= 2 ? 'scale-150' : 'op50'">
-  <span v-click>Anthony's Roads to </span>
-  <span>Open Source </span>
-  <sup v-click>2/n</sup>
+  <span v-click>产品设计中的 </span>
+  <span>质量保证和落地 </span>
+  <sup v-click>交互/视觉/整体体验</sup>
 </div>
 <div mt1 forward:delay-300 v-click>The Progressive Path</div>
 </h1>
