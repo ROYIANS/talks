@@ -25,7 +25,7 @@ glowSeed: 14
 
 <div class="leading-10 opacity-80">
 2024-10-28<br>
-大前端研发组.<br>
+大前端研发组<br>
 圈圈⭕️<br>
 </div>
 
@@ -36,8 +36,8 @@ glowSeed: 14
   <div><a href="https://github.com/ROYIANS" target="_blank" class="border-none! font-300">ROYIANS</a></div>
 </div>
 
-<img src="/royians-hi.png" v-click absolute bottom-0 right-0 h-96 />
-<img src="/hi.png" v-after absolute top-47 right-80 w-8 rotate-10 delay-300 />
+<img src="/royians-hi.png" v-click absolute bottom-0 right-0 h-86 />
+<img src="/hi.png" v-after absolute top-67 right-80 w-8 rotate-10 delay-300 />
 
 <div flex="~ gap2">
 
@@ -56,28 +56,21 @@ title: 产品设计中的质量保证和落地
 
 <h1 flex="~ col">
 <div text-2xl origin-top-left transition duration-500 :class="$clicks <= 2 ? 'scale-150' : 'op50'">
-  <span v-click>产品设计中的 </span>
-  <span>质量保证和落地 </span>
-  <sup v-click>交互/视觉/整体体验</sup>
+  <span v-click>产品开发中的 </span>
+  <span>设计模式 </span>
+  <sup text-xs v-click>交互/视觉/整体体验</sup>
 </div>
-<div mt1 forward:delay-300 v-click>The Progressive Path</div>
+<div mt1 forward:delay-300 v-click>交互规范分享</div>
 </h1>
 
 <div abs-br mx-10 my-11 flex="~ col gap-4 items-end" text-left v-click="1">
-  <span>Vue Amsterdam</span>
-  <div text-xs opacity-75 mt--4>Feb. 29th 2024</div>
+  <span>ROYIANS</span>
+  <div text-xs opacity-75 mt--4>Nov. 1st 2024</div>
   <!-- <img src="/frontend-nation.svg" w-35 /> -->
 </div>
 
 <!--
-I am really appericated the chance I got that allows me to work on Open Source full-time. I'd like to say thank you for everyone that giving the support and opportunities and made this possible to me.
-
-It was always my dream to work in Open Source and build things that can help people around the world, attending awesome events like this, and meeting so many great people in the community.
-
-I believe many of you are like me, are interested in doing open source. So today here, [click] I'd like to share some of my thoughts and experiences I got. Hopefully it can provide some inspirations for your own open source journey.
-
-Open source is quite a big topic that I can't really cover everything in one talk. [click] So I am trying to break it down and talk about different aspects of open source in each talk and make them a series.
-Today, it's going to be the Part 2 - [click] "The Progressive Path".
+这里是讲演文本，TODO
 -->
 
 ---
@@ -85,16 +78,16 @@ glowX: 100
 glowY: 80
 ---
 
-### Previous Episode{.op50.mb-2}
+### How to understand Interaction Design Spec {.op50.mb-2}
 
 <div>
-<h1>The Set Theory</h1>
-<img src="/the-set-theory.png" rounded-lg w-120 border="~ gray/50" mt-10 />
+<h1>如何「理解」交互规范</h1>
+<img src="/r-gui-fan.png" rounded-lg w-120 border="~ gray/50" mt-10 absolute left-70 top-50 v-click="2" />
 </div>
 
-<div mt-10 text-xl v-click>
+<div mt-10 text-xl  v-click="1">
 
-Recordings on [antfu.me](https://antfu.me)
+一个成熟的设计规范对 产品设计、研发开发、用户使用 都有着重要的指导作用
 
 </div>
 
@@ -113,86 +106,97 @@ glowX: 50
 glowY: 100
 ---
 
-<h1 important-text-5xl v-click>What is a Tool?</h1>
+<h1 important-text-5xl v-click>什么是「用户体验要素」?</h1>
 
 <div text-white:50 text-2xl v-click>
-A tool should help you get things done <span text-yellow2 italic v-mark.yellow.underline.delay300="2">faster</span> and/or <span text-lime2 v-mark.lime.underline.delay700="2">easier</span>
+从 5 个要素 <span text-yellow2 italic v-mark.yellow.underline.delay300="2">自下而上</span> 的建设 <span text-lime2 v-mark.lime.underline.delay700="2">用户体验</span>
 </div>
 
 <!--
-So first, before we diving into today's topic, let's discuss a bit what we are expecting when working in open source.
-
-We know that most of the open source projects we use daily are tools, but have you ever think about the question that, what defines a tool?
-
-[click] The definition should be pretty straightforward and maybe you already have the answer in your mind.
-
-[click] In my interpretation, a tool should help you get things done faster and/or easier, at least one of them.
-
-I guess no one wants to use a tool that makes things slower and more complicated, right?
+So first
 -->
 
 ---
 glow: right
 class: text-center
 clicks: 5
-title: What Makes a Good Tool?
+title: 战略、范围、结构、框架、表现
 ---
 
-<div transition duration-800 :class="$clicks < 2 ? 'translate-y-45' : ''" relative>
+<div transition duration-800 :class="$clicks < 3 ? 'translate-y-45' : ''" relative>
 
-# What Makes a <span v-mark.linethrough.red.delay200="{at:1,roughness:6,seed:146}" transition inline-block :class="$clicks >= 1 ? 'op50' : ''"> Good</span> Tool?
+# 战略、范围、<span v-mark.green.underline="2">结构、 框架</span><span absolute right-31.2 v-mark.yellow.underline.delay800="2">框架、表现</span>
 
-<div font-hand bold absolute rotate--4 left-106 top-10 text-3xl text-lime1 delay-300 v-click>General & Useful</div>
+<div font-hand bold absolute rotate--4 left-150 top-13 text-3xl text-yellow delay-300 v-click="2">视觉规范</div>
+<div font-hand bold absolute rotate--2 left-120 top-12 text-3xl text-green delay-200 v-click="1">交互规范</div>
 
 </div>
 
-<div left-70 top-15 relative transition duration-400 forward:delay-600 v-click="2">
-  <img src="/balance-body.png" w-80 absolute left-0 top-0 />
-  <img
-    src="/balance-arm.png"
-    w-80 absolute left-0 top-0 transition duration-1000
-    class="origin-[50%_27%]"
-    :class="$clicks >= 5 ? 'animate-balance-shake' : ''"
-  />
-  <div transition duration-1000 :class="$clicks >= 5 ? 'animate-balance-move-left' : ''" >
-    <img src="/cost-of-learn.png" w-30 absolute left--35 top-20 duration-800 v-click="4" />
-    <img src="/balance-balls-left.png" w-80 absolute left-0 top-0 v-click="3" />
-    <img src="/balance-left.png" w-80 absolute left-0 top-0 />
-  </div>
-  <div transition duration-1000 :class="$clicks >= 5 ? 'animate-balance-move-right' : ''" >
-    <img src="/cost-of-doing.png" w-28 absolute left-85 top-34 duration-800 v-click="4" />
-    <img src="/balance-ball-right.png" w-80 absolute left-0 top-0 v-click="3" />
-    <img src="/balance-right.png" w-80 absolute left-0 top-0 />
-  </div>
+<div left-45 top-15 relative transition duration-400 forward:delay-600 v-click="3">
+  <img src="/r-yong-hu-tiyan-yao-su.png" w-120 absolute left-0 top-0 rounded />
+</div>
+
+<div absolute left-10 top-45 delay-200 v-click="4">
+    <div font-hand bold text-yellow text-3xl pb-10>视觉规范</div>
+    <ul>
+        <li>图形元素</li>
+        <li>色彩体系</li>
+        <li>字体体系</li>
+        <li>界面布局</li>
+        <li>质感风格</li>
+        <li>动画动效</li>
+    </ul>
+</div>
+
+<div absolute right-15 top-45 delay-200 v-click="5">
+    <div font-hand bold text-green text-3xl pb-10>交互规范</div>
+    <ul>
+        <li>全局原则</li>
+        <li>页面布局</li>
+        <li>通用流程</li>
+        <li>标准组件</li>
+        <li>文案规范</li>
+    </ul>
 </div>
 
 <!--
-So assume we want to build a new open source project, a tool for people to use. What would you consider to justify if the tool you going to build is a good one or not?
+So assume
+-->
 
-Well, my answer is no, you can't not really tell that without being verified by the community - because there are so many factors that can affect if an open source project would work out or not.
+---
+glow: right
+class: text-center
+---
 
-But also, I want to emphasize that in this context, "Good" is a relative term that deps on your expectation.
-It's totally ok to build a tool that solves your own problem and call it a day - it's a great tool that works for you anyway.
-Actually I have a plenty of such tools and I am happy about that even no one else is using them, but they get my job done at the end of the day, right?
+# 视觉角度
 
-So let's revise our goal. Let's say we want to build a tool that can be beneficial to not only ourselves but also to more people, and probably the community could also help us to make the tool better for everyone.
+<div text-left>从用户体验要素来看，视觉主要是在「表现层」「框架层」进行规范的统一</div>
+<div text-left>主要包括：形、色、字、构、质、动 六个层面。</div>
 
-[click] So the question becomes how could we make a general and useful tool for ppl to use?.
+<div left-60 top-5 relative transition duration-400 forward:delay-600 v-click>
+  <img src="/r-shi-jue-jiao-du.png" w-100 absolute left-0 top-0 rounded />
+</div>
 
-[click] I'd say every decision comes with a trade-off. When users consider if they want to use a tool, they would justify and cost and the benefits they can get from it.
+<!--
+So assume
+-->
 
-[click] So here we have a balance. If I gonna to put two most important factors on the balance, I'd pick "Cost of learning and using the tools" verse the "Cost of doing something oneself".
+---
+glow: right
+class: text-center
+---
 
-[click] In order to make users willing to use our tool, I'd say that the "Cost of learning" should be much less than the "Cost of doing"
-[click] This has been my little go-to formula to pre-evaluate if idea I have is worthwhile.
+# 交互角度
 
-For example, let's say if we want to get a summary of 10 numbers. Would you look for a library to do that? Probably no, because we could do it with a single loop in 2 line of code - the cost of doing ourself is too low that we don't even consider getting a tool.
+<div text-left>交互角度相对抽象，主要针对于产品的「结构层」「框架层」入手，定义统一的交互规范，指导页面、流程搭建和组件使用规则。</div>
+<div text-left>包括：全局原则、页面布局、通用流程、标准组件、文案规范。</div>
 
-But if we are going to do some calculus, I am certainly going to find a library to do it for me, because I basically forget everything I learned in my college XD.
+<div left-60 top-5 relative transition duration-400 forward:delay-600 v-click>
+  <img src="/r-jiao-hu-jiao-du.png" w-100 absolute left-0 top-0 rounded />
+</div>
 
-However, on the other hand, if the library we picked requires us to understand like 100 different configurations before being able to use it, uhumm, we probably going to find another library that might be easier.
-
-Thus we know that, when we are making tools, we have to think about those cases and find a good balance to make the tool worthwhile.
+<!--
+整体维度呈“从抽象到具体的总分关系”，不仅对产品的各个维度都有具体的交互指导，而且不仅能保证长期使用，避免重复返工；同时也便于囊括后续的迭代内容。而这些内容，就是我们通常定义的交互规范，也是交互参与定义设计规范的发力点。
 -->
 
 ---

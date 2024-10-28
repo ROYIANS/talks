@@ -2,26 +2,22 @@
 layout: 'intro'
 ---
 
-# Anthony Fu
+# ROYIANS
 
 <div class="leading-8 opacity-80">
-Core team member of Vue, Vite and Nuxt.<br>
-Creator of VueUse, Vitest, UnoCSS, Slidev and Type Challenges.<br>
-Working at NuxtLabs.<br>
+小梦岛.<br>
+前端开发工程师.<br>
+&lt;DreamlandCreator /&gt;.<br>
 </div>
 
 <div my-10 w-min grid="~ cols-[40px_1fr] gap-y4" items-center justify-center>
   <div i-ri-github-line op50 ma text-xl/>
-  <div><a href="https://github.com/antfu" target="_blank">antfu</a></div>
-  <div i-ri-twitter-line op50 ma text-xl/>
-  <div><a href="https://twitter.com/antfu7" target="_blank">antfu7</a></div>
-  <div i-ri-mastodon-line op50 ma text-xl/>
-  <div><a href="https://m.webtoo.ls/@antfu" target="_blank">antfu@webtoo.ls</a></div>
+  <div><a href="https://github.com/ROYIANS" target="_blank">ROYIANS</a></div>
   <div i-ri-user-3-line op50 ma text-xl/>
-  <div><a href="https://antfu.me" target="_blank">antfu.me</a></div>
+  <div><a href="https://vidorra.life" target="_blank">vidorra.life</a></div>
 </div>
 
-<img src="https://antfu.me/avatar.png" rounded-full w-40 abs-tr mt-16 mr-12/>
+<img src="https://www.vidorra.life/_next/image?url=https%3A%2F%2Fvidorra.life%2Fapi%2Fv2%2Fobjects%2Favatar%2Fzow48gbjloxg40qz8g.png&w=384&q=75" rounded-full w-40 abs-tr mt-16 mr-12/>
 
 <div flex="~ gap2">
 
