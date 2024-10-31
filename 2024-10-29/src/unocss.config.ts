@@ -10,7 +10,8 @@ export default mergeConfigs([
     presets: [
       presetWebFonts({
         fonts: {
-          sans: 'Noto Serif SC',
+          sans: 'Noto Sans SC',
+          serif: 'Noto Serif SC',
           strong: 'Rubik Iso',
           fast: 'Ubuntu',
           hand: 'Long Cang',

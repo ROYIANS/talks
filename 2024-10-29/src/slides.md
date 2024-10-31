@@ -21,7 +21,7 @@ class: pl-40
 glowSeed: 14
 ---
 
-# 交互设计开发规范分享
+# 交互设计开发规范分享{.font-serif}
 
 <div class="leading-10 opacity-80">
 2024-10-28<br>
@@ -36,7 +36,7 @@ glowSeed: 14
   <div><a href="https://github.com/ROYIANS" target="_blank" class="border-none! font-300">ROYIANS</a></div>
 </div>
 
-<img src="/royians-hi.png" v-click absolute bottom-0 right-0 h-86 />
+<img src="https://www.vidorra.life/_next/image?url=https%3A%2F%2Fvidorra.life%2Fapi%2Fv2%2Fobjects%2Favatar%2Fzow48gbjloxg40qz8g.png&w=384&q=75" v-click absolute bottom-30 right-40 h-35 rounded-full />
 <img src="/hi.png" v-after absolute top-67 right-80 w-8 rotate-10 delay-300 />
 
 <div flex="~ gap2">
@@ -55,12 +55,12 @@ title: 产品设计中的质量保证和落地
 ---
 
 <h1 flex="~ col">
-<div text-2xl origin-top-left transition duration-500 :class="$clicks <= 2 ? 'scale-150' : 'op50'">
+<div text-2xl font-serif origin-top-left transition duration-500 :class="$clicks <= 2 ? 'scale-150' : 'op50'">
   <span v-click>产品开发中的 </span>
   <span>设计模式 </span>
   <sup text-xs v-click>交互/视觉/整体体验</sup>
 </div>
-<div mt1 forward:delay-300 v-click>交互规范分享</div>
+<div mt1 forward:delay-300 font-serif v-click>交互规范分享</div>
 </h1>
 
 <div abs-br mx-10 my-11 flex="~ col gap-4 items-end" text-left v-click="1">
@@ -81,11 +81,11 @@ glowY: 80
 ### How to understand Interaction Design Spec {.op50.mb-2}
 
 <div>
-<h1>如何「理解」交互规范</h1>
+<h1 font-serif>如何「理解」交互规范</h1>
 <img src="/r-gui-fan.png" rounded-lg w-120 border="~ gray/50" mt-10 absolute left-70 top-50 v-click="2" />
 </div>
 
-<div mt-10 text-xl  v-click="1">
+<div mt-10 text-xl  font-serif  v-click="1">
 
 一个成熟的设计规范对 产品设计、研发开发、用户使用 都有着重要的指导作用
 
@@ -106,9 +106,9 @@ glowX: 50
 glowY: 100
 ---
 
-<h1 important-text-5xl v-click>什么是「用户体验要素」?</h1>
+<h1 important-text-5xl font-serif v-click>什么是「用户体验要素」?</h1>
 
-<div text-white:50 text-2xl v-click>
+<div text-white:50 text-2xl font-hand v-click>
 从 5 个要素 <span text-yellow2 italic v-mark.yellow.underline.delay300="2">自下而上</span> 的建设 <span text-lime2 v-mark.lime.underline.delay700="2">用户体验</span>
 </div>
 

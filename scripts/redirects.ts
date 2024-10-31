@@ -81,7 +81,7 @@ ${redirects}
 
 [[redirects]]
 from = "/"
-to = "https://antfu.me/talks"
+to = "https://vidorra.life/talks"
 status = 302
 `
 
